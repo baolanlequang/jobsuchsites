@@ -24,18 +24,32 @@ Nếu bạn thấy trang này hữu ích, các bạn có thể mua cho tôi 1 ly
 - [Việc làm tại Karlsruhe Institute of Technology](https://www.pse.kit.edu/english/karriere/121.php)
 - [Việc làm tại Hochschule Karlsruhe](https://www.h-ka.de/die-hochschule-karlsruhe/campus-karriere/stellenangebote)
 #### 2. Bayern
+_Đang cập nhật_
 #### 3. Berlin
-- [Các công việc nhân viên của bang]https://www.karriereportal-stellen.berlin.de/stellenangebote.html
+- [Các công việc nhân viên của bang](https://www.karriereportal-stellen.berlin.de/stellenangebote.html)
 #### 4. Brandenburg
+_Đang cập nhật_
 #### 5. Bremen
+_Đang cập nhật_
 #### 6. Hamburg
+_Đang cập nhật_
 #### 7. Hessen
+_Đang cập nhật_
 #### 8. Mecklenburg-Vorpommern
+_Đang cập nhật_
 #### 9. Niedersachsen
+_Đang cập nhật_
 #### 10. Nordrhein-Westfalen
+_Đang cập nhật_
 #### 11. Rheinland-Pfalz
+_Đang cập nhật_
 #### 12. Saarland
+_Đang cập nhật_
 #### 13. Sachsen
+_Đang cập nhật_
 #### 14. Sachsen-Anhalt
+_Đang cập nhật_
 #### 15. Schleswig-Holstein
+_Đang cập nhật_
 #### 16. Thüringen
+_Đang cập nhật_

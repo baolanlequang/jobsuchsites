@@ -14,6 +14,7 @@ Nếu bạn thấy trang này hữu ích, các bạn có thể mua cho tôi 1 ly
 5. [Make It in Germany](https://www.make-it-in-germany.com/en/working-in-germany/job-listings): Trang web của Chính phủ Đức về thông tin visa và công việc, các bạn có thể tìm việc cũng như thông tin về loại visa phù hợp với mình.
 6. [Agentur fuer Arbeit](https://www.arbeitsagentur.de/jobsuche/): Trang web của Cơ quan quản lý lao động liên bang Đức, bạn có thể tìm kiếm thông tin các vị trí phù hợp qua trang web này.
 7. [stellenanzeigen](https://www.stellenanzeigen.de/): Một trong những trang web tìm việc lớn nhất nước Đức.
+8. [Jobs beim Staat](https://www.jobs-beim-staat.de/): Trang web về việc làm tại các cơ quan công quyền Đức.
 
 ### II. Các trang web của các địa phương:
 #### 1. Baden-Württemberg

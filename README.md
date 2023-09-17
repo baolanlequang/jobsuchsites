@@ -24,6 +24,7 @@ Nếu bạn thấy trang này hữu ích, các bạn có thể mua cho tôi 1 ly
 - [Việc làm tại Hochschule Karlsruhe](https://www.h-ka.de/die-hochschule-karlsruhe/campus-karriere/stellenangebote)
 #### 2. Bayern
 #### 3. Berlin
+- [Các công việc nhân viên của bang]https://www.karriereportal-stellen.berlin.de/stellenangebote.html
 #### 4. Brandenburg
 #### 5. Bremen
 #### 6. Hamburg

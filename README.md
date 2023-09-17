@@ -17,6 +17,11 @@ Nếu bạn thấy trang này hữu ích, các bạn có thể mua cho tôi 1 ly
 
 ### II. Các trang web của các địa phương:
 #### 1. Baden-Württemberg
+- [Các công việc nhân viên của bang](https://www.baden-wuerttemberg.de/de/service/stellen/stellenboerse-des-landes)
+- [Danh sách các cổng việc làm tại các cơ quan của bang](https://www.baden-wuerttemberg.de/de/service/stellen/stellenportale-und-karriereseiten-des-landes)
+- [Việc làm tại thành phố Karlsruhe](https://www.karlsruhe.de/stadt-rathaus/karriere-ausbildung/stellenportal)
+- [Việc làm tại Karlsruhe Institute of Technology](https://www.pse.kit.edu/english/karriere/121.php)
+- [Việc làm tại Hochschule Karlsruhe](https://www.h-ka.de/die-hochschule-karlsruhe/campus-karriere/stellenangebote)
 #### 2. Bayern
 #### 3. Berlin
 #### 4. Brandenburg

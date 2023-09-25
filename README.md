@@ -23,6 +23,7 @@ Nếu bạn thấy trang này hữu ích, các bạn có thể mua cho tôi 1 ly
 - [Việc làm tại thành phố Karlsruhe](https://www.karlsruhe.de/stadt-rathaus/karriere-ausbildung/stellenportal)
 - [Việc làm tại Karlsruhe Institute of Technology](https://www.pse.kit.edu/english/karriere/121.php)
 - [Việc làm tại Hochschule Karlsruhe](https://www.h-ka.de/die-hochschule-karlsruhe/campus-karriere/stellenangebote)
+- [Việc làm tại University of Stuttgart](https://www.stellenwerk.de/en/stuttgart/)
 #### 2. Bayern
 - [Việc làm tại Technical University of Munich](https://www.tum.de/en/about-tum/careers-and-jobs/careers-at-tum)
 #### 3. Berlin
@@ -30,9 +31,9 @@ Nếu bạn thấy trang này hữu ích, các bạn có thể mua cho tôi 1 ly
 #### 4. Brandenburg
 - [Các công việc nhân viên của bang Brandenburg](https://karriere-in-brandenburg.de/stellenangebote)
 #### 5. Bremen
-_Đang cập nhật_
+- [Job in Bremen](https://jobs.bremen.de/): Trang web về các công việc tại các công ty đang có ở Bremen
 #### 6. Hamburg
-_Đang cập nhật_
+- [Job in Hamburg](https://jobs.hamburg.de): Trang web về các công việc tại các công ty đang có ở Hamburg
 #### 7. Hessen
 _Đang cập nhật_
 #### 8. Mecklenburg-Vorpommern

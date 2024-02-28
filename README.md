@@ -35,7 +35,7 @@ Nếu bạn thấy trang này hữu ích, các bạn có thể mua cho tôi 1 ly
 #### 6. Hamburg
 - [Job in Hamburg](https://jobs.hamburg.de): Trang web về các công việc tại các công ty đang có ở Hamburg
 #### 7. Hessen
-_Đang cập nhật_
+- [Các công việc nhân viên của bang Hessen](https://stellensuche.hessen.de/unreg/index.html)
 #### 8. Mecklenburg-Vorpommern
 _Đang cập nhật_
 #### 9. Niedersachsen

@@ -24,6 +24,7 @@ Nếu bạn thấy trang này hữu ích, các bạn có thể mua cho tôi 1 ly
 - [Việc làm tại Karlsruhe Institute of Technology](https://www.pse.kit.edu/english/karriere/121.php)
 - [Việc làm tại Hochschule Karlsruhe](https://www.h-ka.de/die-hochschule-karlsruhe/campus-karriere/stellenangebote)
 - [Việc làm tại University of Stuttgart](https://www.stellenwerk.de/en/stuttgart/)
+- [Việc làm tại University of Tübingen](https://uni-tuebingen.de/universitaet/karriere/freie-stellen/)
 #### 2. Bayern
 - [Việc làm tại Technical University of Munich](https://www.tum.de/en/about-tum/careers-and-jobs/careers-at-tum)
 #### 3. Berlin
@@ -37,20 +38,20 @@ Nếu bạn thấy trang này hữu ích, các bạn có thể mua cho tôi 1 ly
 #### 7. Hessen
 - [Các công việc nhân viên của bang Hessen](https://stellensuche.hessen.de/unreg/index.html)
 #### 8. Mecklenburg-Vorpommern
-_Đang cập nhật_
+- [Các công việc nhân viên của bang Mecklenburg-Vorpommern](https://karriere-in-mv.de/)
 #### 9. Niedersachsen
-_Đang cập nhật_
+- [Các công việc nhân viên của bang Niedersachsen](https://www.niedersachsen.de/startseite/service/stellenausschreibungen/)
 #### 10. Nordrhein-Westfalen
-_Đang cập nhật_
+- [Các công việc tại bang Nordrhein-Westfalen](https://karriere.nrw/)
 #### 11. Rheinland-Pfalz
-_Đang cập nhật_
+- [Các công việc tại bang Rheinland-Pfalz](https://karriere.rlp.de/de/im-beruf/)
 #### 12. Saarland
-_Đang cập nhật_
+- [Các công việc nhân viên của bang Saarland](https://www.saarland.de/DE/portale/karriere/stellenangebote)
 #### 13. Sachsen
-_Đang cập nhật_
+- [Các công việc nhân viên của bang Sachsen](https://www.karriere.sachsen.de/)
 #### 14. Sachsen-Anhalt
-_Đang cập nhật_
+- [Các công việc nhân viên của bang Sachsen-Anhalt](https://www.sachsen-anhalt.de/bs/stellenausschreibungen-der-landesverwaltung)
 #### 15. Schleswig-Holstein
-_Đang cập nhật_
+- [Các công việc nhân viên của bang Schleswig-Holstein](https://www.schleswig-holstein.de/SiteGlobals/Forms/Stellensuche/Stellensuche_Formular.html?nn=497efc1d-9df5-4648-ad15-951e9ec47b69&callerId.HASH=1b58DemWTCZ1Z4DizWUNFfMCmxbsdcU%3D&callerId=497efc1d-9df5-4648-ad15-951e9ec47b69)
 #### 16. Thüringen
-_Đang cập nhật_
+- [Các công việc nhân viên của bang Thüringen](https://karriere.thueringen.de/stellensuche)

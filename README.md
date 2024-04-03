@@ -1,3 +1,5 @@
+<meta name="google-adsense-account" content="ca-pub-2297027240894987">
+
 # Tổng hợp các trang web tìm việc tại Đức
 ... Đang cập nhật ...
 
@@ -55,3 +57,4 @@ Nếu bạn thấy trang này hữu ích, các bạn có thể mua cho tôi 1 ly
 - [Các công việc nhân viên của bang Schleswig-Holstein](https://www.schleswig-holstein.de/SiteGlobals/Forms/Stellensuche/Stellensuche_Formular.html?nn=497efc1d-9df5-4648-ad15-951e9ec47b69&callerId.HASH=1b58DemWTCZ1Z4DizWUNFfMCmxbsdcU%3D&callerId=497efc1d-9df5-4648-ad15-951e9ec47b69)
 #### 16. Thüringen
 - [Các công việc nhân viên của bang Thüringen](https://karriere.thueringen.de/stellensuche)
+

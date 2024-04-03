@@ -1,5 +1,3 @@
-<meta name="google-adsense-account" content="ca-pub-2297027240894987">
-
 # Tổng hợp các trang web tìm việc tại Đức
 ... Đang cập nhật ...
 

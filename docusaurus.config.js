@@ -131,6 +131,10 @@ const config = {
         // ],
         copyright: `Copyright © ${new Date().getFullYear()} baolan2005.com. Built with Docusaurus.`,
       },
+      metadata: [
+        {name: 'keywords', content: 'job in Germany, tim viec o Duc, tim viec o duc'},
+        {name: 'google-adsense-account', content: 'ca-pub-2297027240894987'},
+      ],
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,

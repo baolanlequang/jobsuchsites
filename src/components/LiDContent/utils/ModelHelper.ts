@@ -2,7 +2,7 @@
 export class ModelHelper {
   async decodeJsonFromFile<T>(fileName: string, modelType: { new(): T } | Array<{ new(): T }>): Promise<T | T[] | null> {
     try {
-      const fileResponse = await fetch("lid_jsons/" + fileName + ".json");
+      const fileResponse = await fetch("../lid_jsons/" + fileName + ".json");
       if (!fileResponse.ok) {
           throw new Error(`Failed to fetch ${fileName}.json`);
       }

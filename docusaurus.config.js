@@ -6,6 +6,8 @@
 
 import {themes as prismThemes} from 'prism-react-renderer';
 
+// @ts-check
+
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Find job in Germany Site',
@@ -78,7 +80,7 @@ const config = {
           //   position: 'left',
           //   label: 'Tutorial',
           // },
-          // {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/lidvn', label: 'Leben in Deutschland', position: 'left'},
           {
             href: 'https://github.com/baolanlequang',
             label: 'GitHub',

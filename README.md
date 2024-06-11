@@ -29,6 +29,7 @@ Nếu bạn thấy trang này hữu ích, các bạn có thể mua cho tôi 1 ly
 - [Việc làm tại Technical University of Munich](https://www.tum.de/en/about-tum/careers-and-jobs/careers-at-tum)
 #### 3. Berlin
 - [Các công việc nhân viên của bang Berlin](https://www.karriereportal-stellen.berlin.de/stellenangebote.html)
+- [Việc làm tại Technical University of Berlin](https://www.jobs.tu-berlin.de/stellenausschreibungen)
 #### 4. Brandenburg
 - [Các công việc nhân viên của bang Brandenburg](https://karriere-in-brandenburg.de/stellenangebote)
 #### 5. Bremen
@@ -37,18 +38,23 @@ Nếu bạn thấy trang này hữu ích, các bạn có thể mua cho tôi 1 ly
 - [Job in Hamburg](https://jobs.hamburg.de): Trang web về các công việc tại các công ty đang có ở Hamburg
 #### 7. Hessen
 - [Các công việc nhân viên của bang Hessen](https://stellensuche.hessen.de/unreg/index.html)
+- [Việc làm tại Technical University of Darmstadt](https://www.career.tu-darmstadt.de/#/tu-darmstadt/jobs)
 #### 8. Mecklenburg-Vorpommern
 - [Các công việc nhân viên của bang Mecklenburg-Vorpommern](https://karriere-in-mv.de/)
 #### 9. Niedersachsen
 - [Các công việc nhân viên của bang Niedersachsen](https://www.niedersachsen.de/startseite/service/stellenausschreibungen/)
+- [Việc làm tại Technical University of Braunschweig](https://www.tu-braunschweig.de/stellenmarkt)
+- [Leibniz University Hannover](https://www.uni-hannover.de/en/universitaet/stellenangebote-arbeit-an-der-uni/jobboerse)
 #### 10. Nordrhein-Westfalen
 - [Các công việc tại bang Nordrhein-Westfalen](https://karriere.nrw/)
+- [Việc làm tại RWTH Aachen University](https://www.rwth-aachen.de/go/id/buym/lidx/1/)
 #### 11. Rheinland-Pfalz
 - [Các công việc tại bang Rheinland-Pfalz](https://karriere.rlp.de/de/im-beruf/)
 #### 12. Saarland
 - [Các công việc nhân viên của bang Saarland](https://www.saarland.de/DE/portale/karriere/stellenangebote)
 #### 13. Sachsen
 - [Các công việc nhân viên của bang Sachsen](https://www.karriere.sachsen.de/)
+- [Việc làm tại Dresden University of Technology](https://tu-dresden.de/tu-dresden/arbeiten-an-der-tud/stellenangebote)
 #### 14. Sachsen-Anhalt
 - [Các công việc nhân viên của bang Sachsen-Anhalt](https://www.sachsen-anhalt.de/bs/stellenausschreibungen-der-landesverwaltung)
 #### 15. Schleswig-Holstein

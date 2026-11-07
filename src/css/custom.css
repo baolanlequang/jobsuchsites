@@ -1,35 +1,230 @@
 /**
- * Any CSS included here will be global. The classic template
- * bundles Infima by default. Infima is a CSS framework designed to
- * work well for content-centric websites.
+ * Global styles. Built on Infima (Docusaurus classic preset).
+ *
+ * Design system: modern "software engineer" look — slate neutrals,
+ * a single indigo accent, generous whitespace, subtle borders and
+ * hover states, and a monospace voice for labels/tags.
  */
 
-/* You can override the default Infima variables here. */
+/* ===================================================================
+   Design tokens
+   =================================================================== */
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
-  --ifm-code-font-size: 95%;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  /* Indigo accent ramp (primary) */
+  --ifm-color-primary: #4f46e5;
+  --ifm-color-primary-dark: #4338ca;
+  --ifm-color-primary-darker: #3730a3;
+  --ifm-color-primary-darkest: #312e81;
+  --ifm-color-primary-light: #6366f1;
+  --ifm-color-primary-lighter: #818cf8;
+  --ifm-color-primary-lightest: #a5b4fc;
+
+  /* Neutral surfaces & ink (slate) */
+  --app-bg: #ffffff;
+  --app-surface: #f8fafc;       /* slate-50  — alternating sections / cards */
+  --app-surface-2: #f1f5f9;     /* slate-100 — chips, code */
+  --app-border: #e2e8f0;        /* slate-200 */
+  --app-ink: #0f172a;           /* slate-900 — headings/body */
+  --app-ink-soft: #475569;      /* slate-600 — secondary text */
+  --app-ink-muted: #94a3b8;     /* slate-400 — captions */
+  --app-accent-soft: #eef2ff;   /* indigo-50 — tinted backgrounds */
+
+  /* Typography */
+  --ifm-font-family-base: 'Inter', system-ui, -apple-system, 'Segoe UI',
+    Roboto, Helvetica, Arial, sans-serif;
+  --ifm-font-family-monospace: 'JetBrains Mono', ui-monospace, SFMono-Regular,
+    Menlo, Consolas, monospace;
+  --ifm-heading-font-weight: 700;
+  --ifm-font-color-base: var(--app-ink);
+  --ifm-heading-color: var(--app-ink);
+  --ifm-code-font-size: 90%;
+
+  /* Shape & shadow */
+  --app-radius: 12px;
+  --app-radius-lg: 18px;
+  --app-shadow-sm: 0 1px 2px rgba(15, 23, 42, 0.04),
+    0 1px 3px rgba(15, 23, 42, 0.06);
+  --app-shadow-md: 0 4px 12px rgba(15, 23, 42, 0.08),
+    0 2px 4px rgba(15, 23, 42, 0.04);
+  --app-shadow-lg: 0 12px 32px rgba(15, 23, 42, 0.12);
+
+  --docusaurus-highlighted-code-line-bg: rgba(79, 70, 229, 0.1);
 }
 
-/* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  /* Lighter indigo reads better on dark surfaces */
+  --ifm-color-primary: #818cf8;
+  --ifm-color-primary-dark: #6366f1;
+  --ifm-color-primary-darker: #4f46e5;
+  --ifm-color-primary-darkest: #4338ca;
+  --ifm-color-primary-light: #a5b4fc;
+  --ifm-color-primary-lighter: #c7d2fe;
+  --ifm-color-primary-lightest: #e0e7ff;
+
+  --app-bg: #0b1120;
+  --app-surface: #111827;
+  --app-surface-2: #1e293b;
+  --app-border: #1f2937;
+  --app-ink: #e2e8f0;
+  --app-ink-soft: #94a3b8;
+  --app-ink-muted: #64748b;
+  --app-accent-soft: #1e1b4b;
+
+  --ifm-background-color: var(--app-bg);
+  --ifm-font-color-base: var(--app-ink);
+  --ifm-heading-color: #f1f5f9;
+
+  --docusaurus-highlighted-code-line-bg: rgba(129, 140, 248, 0.15);
 }
 
+/* ===================================================================
+   Base
+   =================================================================== */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.navbar {
+  box-shadow: none;
+  border-bottom: 1px solid var(--app-border);
+  backdrop-filter: saturate(180%) blur(8px);
+}
+
+/* ===================================================================
+   Section titles — clean centered heading + accent rule
+   (replaces the old col-offset "pill" hack)
+   =================================================================== */
+.sectionTitle {
+  text-align: center;
+  margin: 0 auto 2.5rem;
+}
+
+.sectionTitle__eyebrow {
+  display: inline-block;
+  font-family: var(--ifm-font-family-monospace);
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ifm-color-primary);
+}
+
+.sectionTitle__heading {
+  font-size: clamp(1.6rem, 3vw, 2.1rem);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  margin: 0.4rem 0 0;
+  color: var(--app-ink);
+}
+
+.sectionTitle__rule {
+  width: 48px;
+  height: 3px;
+  border-radius: 99px;
+  background: var(--ifm-color-primary);
+  margin: 0.9rem auto 0;
+}
+
+/* Legacy class kept harmless in case any markdown still references it */
+.section-title {
+  color: var(--ifm-color-primary);
+}
+
+/* ===================================================================
+   Cards — soft, bordered, lift on hover
+   =================================================================== */
+.card {
+  background: var(--app-bg);
+  border: 1px solid var(--app-border);
+  border-radius: var(--app-radius);
+  box-shadow: var(--app-shadow-sm);
+  transition: transform 0.18s ease, box-shadow 0.18s ease,
+    border-color 0.18s ease;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--app-shadow-md);
+  border-color: var(--ifm-color-primary-lighter);
+}
+
+.card__image {
+  max-height: 200px;
+  overflow: hidden;
+  border-top-left-radius: var(--app-radius);
+  border-top-right-radius: var(--app-radius);
+}
+
+.card__image img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+}
+
+/* ===================================================================
+   Buttons
+   =================================================================== */
+.button {
+  border-radius: 10px;
+  font-weight: 600;
+  transition: transform 0.15s ease, box-shadow 0.15s ease,
+    background 0.15s ease;
+}
+
+.button--primary {
+  --ifm-button-color: #ffffff;
+}
+
+.button--primary:hover {
+  transform: translateY(-1px);
+  box-shadow: var(--app-shadow-md);
+}
+
+/* Secondary / outline action used for project links */
+.button--accent-outline {
+  --ifm-button-background-color: transparent;
+  --ifm-button-border-color: var(--app-border);
+  --ifm-button-color: var(--app-ink);
+}
+.button--accent-outline:hover,
+.button--accent-outline:active {
+  --ifm-button-background-color: var(--app-accent-soft);
+  --ifm-button-border-color: var(--ifm-color-primary);
+  color: var(--ifm-color-primary);
+}
+
+/* ===================================================================
+   Badges / skill tags — monospace chips
+   =================================================================== */
+.badge--primary {
+  background: var(--app-accent-soft);
+  border: 1px solid transparent;
+  color: var(--ifm-color-primary-darker);
+  font-family: var(--ifm-font-family-monospace);
+  font-weight: 500;
+  font-size: 0.72rem;
+  border-radius: 7px;
+  padding: 0.25em 0.6em;
+}
+
+[data-theme='dark'] .badge--primary {
+  color: var(--ifm-color-primary-lightest);
+}
+
+/* ===================================================================
+   Site-specific
+   =================================================================== */
 .buymecoffee {
-  height: 60px !important;
-  width: 217px !important;
+  height: 44px !important;
+  width: auto !important;
+}
+
+.footer--dark {
+  --ifm-footer-background-color: #0b1120;
 }

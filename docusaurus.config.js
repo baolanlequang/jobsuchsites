@@ -6,8 +6,6 @@
 
 import {themes as prismThemes} from 'prism-react-renderer';
 
-// @ts-check
-
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Find job in Germany Site',
@@ -36,6 +34,12 @@ const config = {
     locales: ['vi'],
   },
 
+  stylesheets: [
+    'https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap',
+  ],
+
+  plugins: ['./plugins/lid-data'],
+
   presets: [
     [
       'classic',
@@ -43,17 +47,9 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
           showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -66,7 +62,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/logo.png',
       navbar: {
         title: 'Find jobs in Germany',
         logo: {
@@ -74,13 +70,13 @@ const config = {
           src: 'img/logo.png',
         },
         items: [
-          // {
-          //   type: 'docSidebar',
-          //   sidebarId: 'tutorialSidebar',
-          //   position: 'left',
-          //   label: 'Tutorial',
-          // },
+          {to: '/', label: 'Tìm việc ở Đức', position: 'left', activeBaseRegex: '^/$'},
           {to: '/lidvn', label: 'Leben in Deutschland', position: 'left'},
+          {
+            href: 'https://baolan2005.com',
+            label: 'baolan2005.com',
+            position: 'right',
+          },
           {
             href: 'https://github.com/baolanlequang',
             label: 'GitHub',
@@ -90,48 +86,34 @@ const config = {
       },
       footer: {
         style: 'dark',
-        // links: [
-        //   {
-        //     title: 'Docs',
-        //     items: [
-        //       {
-        //         label: 'Tutorial',
-        //         to: '/docs/intro',
-        //       },
-        //     ],
-        //   },
-        //   {
-        //     title: 'Community',
-        //     items: [
-        //       {
-        //         label: 'Stack Overflow',
-        //         href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-        //       },
-        //       {
-        //         label: 'Discord',
-        //         href: 'https://discordapp.com/invite/docusaurus',
-        //       },
-        //       {
-        //         label: 'Twitter',
-        //         href: 'https://twitter.com/docusaurus',
-        //       },
-        //     ],
-        //   },
-        //   {
-        //     title: 'More',
-        //     items: [
-        //       {
-        //         label: 'Blog',
-        //         to: '/blog',
-        //       },
-        //       {
-        //         label: 'GitHub',
-        //         href: 'https://github.com/facebook/docusaurus',
-        //       },
-        //     ],
-        //   },
-        // ],
-        copyright: `Copyright © ${new Date().getFullYear()} baolan2005.com. Built with Docusaurus.`,
+        links: [
+          {
+            title: 'Social',
+            items: [
+              {
+                html: `
+                  <a href="https://www.buymeacoffee.com/baolanlequang" target="_blank" rel="noopener noreferrer"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 30px !important;width: 117px !important;" ></a>
+                `,
+              },
+            ],
+          },
+          {
+            title: 'Pages',
+            items: [
+              {label: 'Tìm việc ở Đức', to: '/'},
+              {label: 'Leben in Deutschland', to: '/lidvn'},
+            ],
+          },
+          {
+            title: 'More',
+            items: [
+              {label: 'baolan2005.com', href: 'https://baolan2005.com'},
+              {label: 'Blog', href: 'https://baolan2005.com/blog'},
+              {label: 'LinkedIn', href: 'https://www.linkedin.com/in/lan-le-a036368a'},
+            ],
+          },
+        ],
+        copyright: `Copyright © ${new Date().getFullYear()} baolan2005. Built with Docusaurus.`,
       },
       metadata: [
         {name: 'keywords', content: 'job in Germany, tim viec o Duc, tim viec o duc'},

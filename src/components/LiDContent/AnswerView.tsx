@@ -1,16 +1,14 @@
-export default function AnswerView({questionDTO, answerDTO}) {
+import clsx from 'clsx';
+import styles from './styles.module.css';
+
+export default function AnswerView({label, answerDTO, isCorrect}) {
   return (
-    <li key={answerDTO.no}>
-      <span>
-        <span>{`${answerDTO.no}. `}</span>
-        {answerDTO.de}
-      {
-        questionDTO.answer === answerDTO.no ? (
-          <input type='checkbox' checked={true} className="input input--primary" />
-        ) : null
-      }
-      </span>
-      <p><i>{answerDTO.vi}</i></p>
+    <li className={clsx(styles.answer, isCorrect && styles.answerCorrect)}>
+      <span className={styles.answerLabel}>{isCorrect ? '✓' : label}</span>
+      <div>
+        <span className={styles.answerDe}>{answerDTO.de}</span>
+        <span className={styles.answerVi}>{answerDTO.vi}</span>
+      </div>
     </li>
   )
 }

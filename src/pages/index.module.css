@@ -1,23 +1,145 @@
 /**
- * CSS files with the .module.css suffix will be treated as CSS modules
- * and scoped locally.
+ * Landing page styles (scoped CSS module).
  */
 
-.heroBanner {
-  padding: 4rem 0;
+.section {
+  padding: 4.5rem 0;
+}
+
+.sectionAlt {
+  background: var(--app-surface);
+  border-top: 1px solid var(--app-border);
+  border-bottom: 1px solid var(--app-border);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.25rem;
+}
+
+/* Popular sites — whole card is a link */
+.siteCard {
+  display: flex;
+  flex-direction: column;
+  padding: 1.25rem 1.4rem;
+  background: var(--app-bg);
+  border: 1px solid var(--app-border);
+  border-radius: var(--app-radius);
+  box-shadow: var(--app-shadow-sm);
+  color: var(--app-ink);
+  transition: transform 0.18s ease, box-shadow 0.18s ease,
+    border-color 0.18s ease;
+}
+
+.siteCard:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--app-shadow-md);
+  border-color: var(--ifm-color-primary-lighter);
+  color: var(--app-ink);
+  text-decoration: none;
+}
+
+.siteHost {
+  font-family: var(--ifm-font-family-monospace);
+  font-size: 0.75rem;
+  color: var(--ifm-color-primary);
+}
+
+.siteName {
+  font-size: 1.15rem;
+  margin: 0.35rem 0 0.5rem;
+}
+
+.arrow {
+  color: var(--app-ink-muted);
+  font-weight: 400;
+  transition: color 0.15s ease;
+}
+
+.siteCard:hover .arrow {
+  color: var(--ifm-color-primary);
+}
+
+.siteDesc {
+  margin: 0;
+  font-size: 0.92rem;
+  line-height: 1.6;
+  color: var(--app-ink-soft);
+}
+
+/* State cards */
+.stateCard {
+  padding: 1.25rem 1.4rem;
+  background: var(--app-bg);
+  border: 1px solid var(--app-border);
+  border-radius: var(--app-radius);
+  box-shadow: var(--app-shadow-sm);
+}
+
+.stateHeader {
+  display: flex;
+  align-items: baseline;
+  gap: 0.6rem;
+  margin-bottom: 0.75rem;
+}
+
+.stateIndex {
+  font-family: var(--ifm-font-family-monospace);
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--ifm-color-primary);
+}
+
+.stateName {
+  font-size: 1.05rem;
+  margin: 0;
+}
+
+.linkList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.linkList li {
+  padding: 0.4rem 0;
+  border-top: 1px solid var(--app-border);
+  font-size: 0.92rem;
+  line-height: 1.5;
+}
+
+.linkList li:first-child {
+  border-top: none;
+}
+
+.linkNote {
+  display: block;
+  font-size: 0.82rem;
+  color: var(--app-ink-soft);
+}
+
+.coffee {
+  padding: 3.5rem 0 4.5rem;
   text-align: center;
-  position: relative;
-  overflow: hidden;
+  color: var(--app-ink-soft);
+}
+
+.coffee img {
+  display: inline-block;
 }
 
 @media screen and (max-width: 996px) {
-  .heroBanner {
-    padding: 2rem;
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
-.buttons {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+@media screen and (max-width: 640px) {
+  .section {
+    padding: 3rem 0;
+  }
+  .grid {
+    grid-template-columns: 1fr;
+  }
 }
